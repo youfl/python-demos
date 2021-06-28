@@ -1,6 +1,5 @@
 ### functools-demos functools模块的常用函数和场景
-- reduce
-
+#### reduce
 reduce.py
 测试reduce逻辑，包含空list，list为复杂对象等情况
 ``` python
@@ -30,7 +29,7 @@ ret = reduce(lambda x, y: x + y['value'], l, 0)
 print(ret) #45
 ```
 
-- partial
+#### partial
 ```python
 from functools import partial
 
