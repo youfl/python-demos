@@ -41,7 +41,7 @@ def test_list_dict():
     '''
     l = [{'value': i} for i in range(1, 10)]
 
-    # 不赋予初始值
+    # 赋予初始值
     ret = reduce(lambda x, y: x + y['value'], l, 0)
     print(ret) #45
 
